@@ -1,7 +1,6 @@
 -- ============================================================
 -- Cleaning steps
--- Mirrors the data wrangling decisions from the original analysis,
--- reasoned about explicitly rather than clicked through a GUI.
+-- Mirrors the data wrangling decisions from the original analysis
 -- ============================================================
 
 -- 1. Fix ISO code mismatch: Germany appears as "DEU" in the GDP dataset

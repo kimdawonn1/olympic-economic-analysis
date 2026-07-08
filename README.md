@@ -5,18 +5,18 @@ predict its Olympic medal success, built on 270K+ athlete-event records and
 57 years of country-level economic data.
 
 **TL;DR:** GDP and population both show a positive relationship with medal
-count, but neither is sufficient on its own — some large, wealthy countries
+count, but neither is sufficient on its own as some large, wealthy countries
 still underperform relative to their size, and vice versa. Full breakdown
 in [`analysis.ipynb`](analysis.ipynb).
 
 ## Why this project
 
-This started as a group project for a business analytics course, done
-entirely through a no-code GUI tool (Exploratory.io). I rebuilt it from
-scratch as a SQL/Python pipeline to work with the raw data directly —
-writing the joins, cleaning logic, and window-function aggregations myself
-instead of clicking through a menu — and to get the whole thing into a
-runnable, version-controlled repo.
+The originial project was built for a business analytics course, done
+entirely through a no-code GUI tool (Exploratory.io). This was useful for the class, 
+but it meant all the actual data logic lived inside button clicks and dropdown menus 
+rather than anything reviewable or reproducible. Thus, I rebuilt it in SQL and Python 
+to work with the raw data directly and to actually own that logic myself, along with getting the 
+whole thing into a runnable, version-controlled repo.
 
 ## Stack
 
@@ -30,8 +30,8 @@ the actual analysis itself.
 
 ## Data
 
-- [GDP & Population by Country, 1960–2017](https://exploratory.io/data/kanaugust/GDP-Population-by-Country-from-1960-to-2017-CJb8HUs9Cw) — country-year GDP and population figures
-- [120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-event-level results, 1896–2016
+- [GDP & Population by Country, 1960–2017](https://exploratory.io/data/kanaugust/GDP-Population-by-Country-from-1960-to-2017-CJb8HUs9Cw) — country-year GDP and population figures by Kan Nishida
+- [120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-event-level results, 1896–2016 by RGriffin
 
 Raw CSVs live in `data/raw/`.
 
