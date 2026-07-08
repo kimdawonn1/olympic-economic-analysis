@@ -30,8 +30,8 @@ the actual analysis itself.
 
 ## Data
 
-- [GDP & Population by Country, 1960–2017](https://exploratory.io/data/kanaugust/GDP-Population-by-Country-from-1960-to-2017-CJb8HUs9Cw) — country-year GDP and population figures
-- [120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-event-level results, 1896–2016
+- [GDP & Population by Country, 1960–2017](https://exploratory.io/data/kanaugust/GDP-Population-by-Country-from-1960-to-2017-CJb8HUs9Cw) — country-year GDP and population figures by Kan Nishida
+- [120 Years of Olympic History](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) — athlete-event-level results, 1896–2016 by RGriffin
 
 Raw CSVs live in `data/raw/`.
 
